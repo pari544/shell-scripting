@@ -11,4 +11,17 @@ echo Hello World
 echo -e "Hello\nWorld"
 
 # Printing with colors
+# Color codes
+# 31 RED
+# 32 GREEN
+# 33 YELLOW
+# 34 BLUE
+# 35 MAGENTA
+# 36 CYAN
+# 0 RESET
+
+# Syntax: echo -e "\e[COLmMESSAGE\e[0m"
+
+echo -e "\e[33mYellow Text"
+echo Normal Text
 
