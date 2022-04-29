@@ -22,6 +22,6 @@ echo -e "Hello\nWorld"
 
 # Syntax: echo -e "\e[COLmMESSAGE\e[0m"
 
-echo -e "\e[33mYellow Text"
+echo -e "\e[33mYellow Text\e[0m"
 echo Normal Text
 
